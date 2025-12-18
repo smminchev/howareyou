@@ -102,7 +102,7 @@
 ### Google Play Compliance
 
 - [x] **Google Play Console accepts URL format**
-  - ✓ URL format: `https://[username].github.io/whereareyou/privacy-policy.html`
+  - ✓ URL format: `https://[username].github.io/howareyou/privacy-policy.html`
   - ✓ No authentication required (public access)
   - ✓ No geofencing (globally accessible)
   - ✓ Persistent URL (not temporary or ephemeral)

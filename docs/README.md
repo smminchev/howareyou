@@ -10,9 +10,9 @@ The privacy policy for How Are You?! is available in multiple languages:
 
 ## Production URLs (after GitHub Pages deployment)
 
-- English: `https://[username].github.io/whereareyou/privacy-policy.html`
-- Bulgarian: `https://[username].github.io/whereareyou/privacy-policy-bg.html`
-- German: `https://[username].github.io/whereareyou/privacy-policy-de.html`
+- English: `https://[username].github.io/howareyou/privacy-policy.html`
+- Bulgarian: `https://[username].github.io/howareyou/privacy-policy-bg.html`
+- German: `https://[username].github.io/howareyou/privacy-policy-de.html`
 
 ## Google Play Store Compliance
 

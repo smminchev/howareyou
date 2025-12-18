@@ -132,13 +132,13 @@ The privacy policy MUST include these mandatory legal disclaimers:
 **When** hosting on GitHub Pages
 **Then**:
 
-- Create GitHub repository: `whereareyou` (use existing project repo) OR `howareyou-privacy` (dedicated repo)
+- Create GitHub repository: `howareyou` (main project repo)
 - Create `docs/` folder in repository root
 - Add `privacy-policy.html` (English - PRIMARY)
 - Add `privacy-policy-bg.html` (Bulgarian translation)
 - Add `privacy-policy-de.html` (German translation)
 - Enable GitHub Pages in Settings → Pages → Source: `docs folder` → Branch: `main`
-- Privacy policy accessible at: `https://[username].github.io/whereareyou/privacy-policy.html`
+- Privacy policy accessible at: `https://[username].github.io/howareyou/privacy-policy.html`
 - All three language versions publicly accessible (non-geofenced, no authentication required)
 
 ---
@@ -316,7 +316,7 @@ The privacy policy MUST include these mandatory legal disclaimers:
 - [x] Keep contact email and last updated date identical across all versions
 
 ### Task 3: Set Up GitHub Repository and Pages (AC: #2)
-- [x] Determine repository strategy (use existing `whereareyou` or create dedicated `howareyou-privacy`)
+- [x] Determine repository strategy (use `howareyou` as main project repo)
 - [x] Create `docs/` folder in repository root
 - [x] Add privacy-policy.html to docs/ folder
 - [x] Add privacy-policy-bg.html to docs/ folder
@@ -325,7 +325,7 @@ The privacy policy MUST include these mandatory legal disclaimers:
 - [x] Commit files to `main` branch
 - [ ] Enable GitHub Pages: Settings → Pages → Source: `docs folder` → Branch: `main` (requires user action)
 - [ ] Wait for GitHub Pages deployment (1-2 minutes)
-- [ ] Verify URL structure: `https://[username].github.io/whereareyou/privacy-policy.html`
+- [ ] Verify URL structure: `https://[username].github.io/howareyou/privacy-policy.html`
 
 ### Task 4: Validate Performance and Accessibility (AC: #3, #7)
 - [x] Test load time with Google Lighthouse (target: Performance score ≥ 90, load time < 2s)
@@ -343,7 +343,7 @@ The privacy policy MUST include these mandatory legal disclaimers:
 - [x] Verify UTF-8 charset (Bulgarian/German characters display correctly)
 
 ### Task 5: Google Play Store Preparation (AC: #5)
-- [x] Copy final privacy policy URL: `https://[username].github.io/whereareyou/privacy-policy.html`
+- [x] Copy final privacy policy URL: `https://[username].github.io/howareyou/privacy-policy.html`
 - [x] Test URL in Google Play Console Data Safety form (paste URL, verify no errors)
 - [x] Document Data Safety Form answers derived from privacy policy:
   - [x] Location data: Collected YES, Shared YES (family emergencies), Purpose: Emergency detection
@@ -388,7 +388,7 @@ The privacy policy MUST include these mandatory legal disclaimers:
 
 **File Organization:**
 ```
-whereareyou/ (GitHub repository root)
+howareyou/ (GitHub repository root)
 ├── docs/
 │   ├── privacy-policy.html          # English (PRIMARY)
 │   ├── privacy-policy-bg.html       # Bulgarian
@@ -400,9 +400,9 @@ whereareyou/ (GitHub repository root)
 ```
 
 **Production URLs (after GitHub Pages deployment):**
-- English: `https://[username].github.io/whereareyou/privacy-policy.html`
-- Bulgarian: `https://[username].github.io/whereareyou/privacy-policy-bg.html`
-- German: `https://[username].github.io/whereareyou/privacy-policy-de.html`
+- English: `https://[username].github.io/howareyou/privacy-policy.html`
+- Bulgarian: `https://[username].github.io/howareyou/privacy-policy-bg.html`
+- German: `https://[username].github.io/howareyou/privacy-policy-de.html`
 
 ### Architecture Compliance
 
@@ -555,12 +555,12 @@ Claude Sonnet 4.5 (claude-sonnet-4-5-20250929)
 - .gitignore (Android project gitignore)
 
 **Git Repository:**
-- Repository: whereareyou
+- Repository: howareyou
 - Branch: main (master)
 - Initial commit: f75de3e "Add privacy policy for How Are You?! app"
 - GitHub Pages: Pending user setup (requires push to GitHub and Pages enablement)
 
 **Production URLs (after GitHub Pages deployment):**
-- English: https://[username].github.io/whereareyou/privacy-policy.html
-- Bulgarian: https://[username].github.io/whereareyou/privacy-policy-bg.html
-- German: https://[username].github.io/whereareyou/privacy-policy-de.html
+- English: https://[username].github.io/howareyou/privacy-policy.html
+- Bulgarian: https://[username].github.io/howareyou/privacy-policy-bg.html
+- German: https://[username].github.io/howareyou/privacy-policy-de.html

@@ -20,7 +20,7 @@
 ### Step 1: Create GitHub Repository
 
 1. Go to https://github.com/new
-2. Repository name: `whereareyou`
+2. Repository name: `howareyou`
 3. Description: "How Are You?! - Behavioral monitoring app for elderly safety"
 4. Visibility: **Public** (required for GitHub Pages free tier)
 5. Do NOT initialize with README, .gitignore, or license (we already have these)
@@ -34,7 +34,7 @@ In your terminal, run these commands:
 cd C:\Users\Stoyan\whereareyou
 
 # Add GitHub remote (replace [username] with your GitHub username)
-git remote add origin https://github.com/[username]/whereareyou.git
+git remote add origin https://github.com/[username]/howareyou.git
 
 # Push to GitHub
 git push -u origin master
@@ -44,7 +44,7 @@ git push -u origin master
 
 ### Step 3: Enable GitHub Pages
 
-1. Go to your repository on GitHub: `https://github.com/[username]/whereareyou`
+1. Go to your repository on GitHub: `https://github.com/[username]/howareyou`
 2. Click **Settings** (top navigation)
 3. Click **Pages** (left sidebar)
 4. Under "Source":
@@ -56,13 +56,13 @@ git push -u origin master
 ### Step 4: Verify Deployment
 
 GitHub Pages will display a message:
-> "Your site is published at `https://[username].github.io/whereareyou/`"
+> "Your site is published at `https://[username].github.io/howareyou/`"
 
 **Test the privacy policy URLs:**
 
-1. English: `https://[username].github.io/whereareyou/privacy-policy.html`
-2. Bulgarian: `https://[username].github.io/whereareyou/privacy-policy-bg.html`
-3. German: `https://[username].github.io/whereareyou/privacy-policy-de.html`
+1. English: `https://[username].github.io/howareyou/privacy-policy.html`
+2. Bulgarian: `https://[username].github.io/howareyou/privacy-policy-bg.html`
+3. German: `https://[username].github.io/howareyou/privacy-policy-de.html`
 
 Each page should load with:
 - Proper formatting (centered, readable)
@@ -74,7 +74,7 @@ Each page should load with:
 
 Once URLs are live:
 
-1. Copy the English privacy policy URL: `https://[username].github.io/whereareyou/privacy-policy.html`
+1. Copy the English privacy policy URL: `https://[username].github.io/howareyou/privacy-policy.html`
 2. Test it in a browser to confirm it's publicly accessible
 3. Use this URL in Google Play Console Data Safety form
 4. Reference `docs/google-play-data-safety-answers.md` for form responses
@@ -135,7 +135,7 @@ Once URLs are live:
 
 **Primary URL (English):**
 ```
-https://[username].github.io/whereareyou/privacy-policy.html
+https://[username].github.io/howareyou/privacy-policy.html
 ```
 
 **Data Safety Form Location:**
