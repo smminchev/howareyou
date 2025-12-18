@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Datenschutzerklärung für How Are You?! - Verhaltensüberwachungs-App für die Sicherheit älterer Menschen">
+    <title>Datenschutzerklärung - How Are You?!</title>
+    <style>
+        /* Mobile-responsive, elderly-friendly styling */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-size: 18px; /* Elderly-friendly, exceeds 16px minimum */
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #212121; /* WCAG 6:1 contrast on white */
+        }
+        h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            color: #212121;
+        }
+        h2 {
+            font-size: 24px;
+            margin-top: 30px;
+            color: #212121;
+        }
+        h3 {
+            font-size: 20px;
+            margin-top: 20px;
+            color: #212121;
+        }
+        ul, ol {
+            margin-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .disclaimer {
+            background-color: #FFF3CD;
+            padding: 15px;
+            border-left: 4px solid #FFC107;
+            margin: 20px 0;
+        }
+        .last-updated {
+            font-style: italic;
+            color: #666;
+        }
+        strong {
+            color: #212121;
+        }
+    </style>
+</head>
+<body>
+    <h1>Datenschutzerklärung</h1>
+    <p class="last-updated">Zuletzt aktualisiert: 2025-12-18</p>
+
+    <p>
+        Diese Datenschutzerklärung beschreibt, wie "How Are You?!" (die "App") Ihre Informationen sammelt, verwendet und schützt.
+        Wir verpflichten uns zur Transparenz in Bezug auf Datenpraktiken und zum Schutz Ihrer Privatsphäre.
+    </p>
+
+    <div class="disclaimer">
+        <h3>Wichtige rechtliche Haftungsausschlüsse</h3>
+        <p><strong>KEIN Medizinprodukt:</strong> How Are You?! ist NICHT von der FDA zugelassen, ist KEIN Medizinprodukt und bietet KEINE medizinische Beratung, Diagnose oder Behandlung.</p>
+        <p><strong>Ersetzt NICHT den Rettungsdienst:</strong> Diese App ersetzt NICHT den Notruf 112, Rettungsdienste oder professionelle medizinische Versorgung. Im Notfall IMMER sofort 112 anrufen. Verlassen Sie sich nicht ausschließlich auf diese App zur Notfallerkennung.</p>
+        <p><strong>Keine Garantien:</strong> Statistische Verhaltensüberwachung kann keine 100%ige Notfallerkennung garantieren. Die App KANN Notfälle ÜBERSEHEN (falsch-negative Ergebnisse möglich) und KANN Fehlalarme ERZEUGEN (falsch-positive Ergebnisse möglich). Die Erkennungsgenauigkeit hängt von der Qualität der 30-tägigen Lernphase ab.</p>
+        <p><strong>Durch die Nutzung von How Are You?! bestätigen Sie, dass Sie diese Einschränkungen verstehen und alle Nutzungsbedingungen akzeptieren.</strong></p>
+    </div>
+
+    <h2>1. Von uns gesammelte Informationen</h2>
+    <p>Um Notfallerkennungsdienste bereitzustellen, sammelt How Are You?! folgende Informationen:</p>
+    <ul>
+        <li><strong>Präzise GPS-Koordinaten</strong> (Standortdaten) - Werden verwendet, um Ihre Standortmuster zu identifizieren und Abweichungen zu erkennen</li>
+        <li><strong>Bewegungssensordaten</strong> (Beschleunigungsmesser, Gyroskop, Barometer) - Werden verwendet, um Aktivitätsniveaus und ungewöhnliche Stillstände zu erkennen</li>
+        <li><strong>Aktivitätsmuster</strong> (Schlafpläne, Stillstandsdauer, tägliche Routinen) - Während der 30-tägigen Lernphase erlernt</li>
+        <li><strong>E-Mail-Adressen</strong> - Alarmempfänger, die von Familienmitgliedern konfiguriert wurden</li>
+        <li><strong>Gerätekennungen</strong> (Android-ID) - Nur für die App-Funktionalität verwendet</li>
+        <li><strong>Sichere Zonenmuster</strong> (Zuhause, Park, Café-Standorte) - Aus Ihren regelmäßigen Bewegungsmustern erlernt</li>
+    </ul>
+
+    <h2>2. Wie wir Informationen verwenden</h2>
+    <p>Ihre Informationen werden ausschließlich für folgende Zwecke verwendet:</p>
+    <ul>
+        <li><strong>Notfallerkennung</strong> - Statistische Anomalieanalyse erkennt ungewöhnliche Stillstände, abnormal lange Schlafperioden und Standortabweichungen von sicheren Zonen</li>
+        <li><strong>Verhaltensmuster-Lernen</strong> - Geräte-KI mit Gemini Nano analysiert Ihre Muster während der 30-tägigen Lernphase</li>
+        <li><strong>Notfall-Benachrichtigungen an Familie</strong> - Bei erkannten Anomalien werden GPS-Koordinaten und Zeitstempel über Gmail API an konfigurierte E-Mail-Adressen gesendet</li>
+        <li><strong>Monatliche Muster-Rekalibrierung</strong> - Automatische Schwellenwert-Updates zur Anpassung an sich ändernde Routinen</li>
+    </ul>
+    <p><strong>Ihre Daten werden NICHT verwendet für:</strong></p>
+    <ul>
+        <li>Werbung oder Marketing</li>
+        <li>Analysen oder Nutzer-Tracking</li>
+        <li>Weitergabe oder Verkauf an Dritte</li>
+        <li>Irgendeinen anderen Zweck als Notfallerkennung</li>
+    </ul>
+
+    <h2>3. Datenspeicherung und Sicherheit</h2>
+    <p>Wir implementieren höchste Datenschutz- und Sicherheitsstandards:</p>
+    <ul>
+        <li><strong>100% lokale Speicherung</strong> - Alle Verhaltensdaten werden nur auf Ihrem Gerät gespeichert, unter Verwendung der Room-Datenbank mit SQLCipher-Verschlüsselung</li>
+        <li><strong>KEINE Cloud-Übertragung</strong> - Keine Server, keine Backend-Infrastruktur, keine Cloud-Überwachung Ihrer Verhaltensmuster</li>
+        <li><strong>Sichere Anmeldedatenspeicherung</strong> - OAuth-Token werden sicher im Android Keystore gespeichert</li>
+        <li><strong>Verschlüsselte Übertragung</strong> - Notfall-Benachrichtigungen werden mit TLS 1.3 verschlüsselt, wenn sie über Gmail API gesendet werden</li>
+        <li><strong>KI-Verarbeitung auf dem Gerät</strong> - Gemini Nano läuft vollständig auf Ihrem Gerät ohne Cloud-KI-Überwachung</li>
+    </ul>
+
+    <h2>4. Datenweitergabe</h2>
+    <p>Die Weitergabe Ihrer Daten ist äußerst begrenzt:</p>
+    <ul>
+        <li><strong>NUR Notfall-Benachrichtigungen:</strong> GPS-Koordinaten, Zeitstempel und Anomaliebeschreibung werden an konfigurierte Familien-E-Mail-Adressen gesendet, wenn ein Notfall erkannt wird</li>
+        <li><strong>KEINE Weitergabe an Dritte:</strong> Keine Analysedienste, keine Werbenetzwerke, keine Tracking-Pixel</li>
+        <li><strong>KEIN Datenverkauf:</strong> Wir werden Ihre Daten niemals verkaufen oder lizenzieren</li>
+        <li><strong>KEINE Sekundärnutzung:</strong> Ihre Daten werden nur für Notfallerkennung verwendet</li>
+        <li><strong>KEIN Marketing:</strong> Wir verwenden Ihre Daten nicht für Werbezwecke</li>
+    </ul>
+
+    <h2>5. Datenspeicherung und -löschung</h2>
+    <p>Sie haben vollständige Kontrolle über Ihre Daten:</p>
+    <ul>
+        <li><strong>Aufbewahrungsfrist:</strong> Verhaltensdaten werden bis zur App-Deinstallation ODER bis zur Auslösung des "Lernen zurücksetzen"-Buttons aufbewahrt</li>
+        <li><strong>Sofortige Löschung bei Deinstallation:</strong> Android löscht automatisch alle App-Daten bei Deinstallation</li>
+        <li><strong>Sofortige Löschung beim Zurücksetzen:</strong> Der "Lernen zurücksetzen"-Button (von Ihrem Gerät aus zugänglich) löscht alle Verhaltensdaten sofort - unter Wahrung der Würde und Autonomie</li>
+        <li><strong>Keine Cloud-Backups:</strong> Alle Daten befinden sich nur auf dem Gerät und werden immer vollständig gelöscht</li>
+        <li><strong>Vollständige Kontrolle:</strong> Sie behalten die volle Kontrolle über den Lebenszyklus Ihrer Daten</li>
+    </ul>
+
+    <h2>6. Ihre Rechte</h2>
+    <p>Sie haben folgende Rechte in Bezug auf Ihre Daten:</p>
+    <ul>
+        <li><strong>Zugriff:</strong> Einsicht Ihrer Verhaltensdaten über das Status-Dashboard</li>
+        <li><strong>Löschen:</strong> Löschen aller Daten über den "Lernen zurücksetzen"-Button oder App-Deinstallation</li>
+        <li><strong>Aktualisieren:</strong> Aktualisierung der E-Mail-Adressen der Empfänger jederzeit über Einstellungen</li>
+        <li><strong>Kein Konto erforderlich:</strong> Privacy-by-Design bedeutet keine Kontoerstellung oder Registrierung</li>
+        <li><strong>Autonomie bewahren:</strong> "Lernen zurücksetzen" ist von Ihrem Gerät aus zugänglich - Sie haben immer die Kontrolle</li>
+    </ul>
+
+    <h2>7. Datenschutz für Kinder</h2>
+    <p>How Are You?! richtet sich nicht an Kinder:</p>
+    <ul>
+        <li><strong>Nicht für Kinder unter 13 Jahren:</strong> COPPA-konform - wir sammeln wissentlich keine Daten von Kindern</li>
+        <li><strong>Zielgruppe:</strong> Erwachsene Kinder (30+), die die App für ältere Eltern (60+) einrichten</li>
+        <li><strong>Keine Daten von Minderjährigen:</strong> Wir sammeln oder verarbeiten keine Daten von Personen unter 13 Jahren</li>
+    </ul>
+
+    <h2>8. Änderungen der Datenschutzerklärung</h2>
+    <p>Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren:</p>
+    <ul>
+        <li><strong>Updates hier veröffentlicht:</strong> Änderungen werden unter dieser URL veröffentlicht</li>
+        <li><strong>In-App-Benachrichtigung:</strong> Wesentliche Änderungen werden in der App beim Start angekündigt</li>
+        <li><strong>Datum der letzten Aktualisierung:</strong> Immer oben in dieser Richtlinie sichtbar</li>
+    </ul>
+
+    <h2>9. Kontaktinformationen</h2>
+    <p>Wenn Sie Fragen zu dieser Datenschutzerklärung oder der App haben:</p>
+    <ul>
+        <li><strong>Entwickler-E-Mail:</strong> <a href="mailto:stoyan.shopov@gmail.com">stoyan.shopov@gmail.com</a></li>
+        <li><strong>Zuletzt aktualisiert:</strong> 2025-12-18</li>
+    </ul>
+
+    <div class="disclaimer">
+        <h3>Verantwortung des Nutzers</h3>
+        <p>Durch die Nutzung von How Are You?! sind Sie verantwortlich für:</p>
+        <ul>
+            <li>Korrekte Konfiguration der E-Mail-Adressen der Empfänger</li>
+            <li>Aktuellhalten der Kontaktinformationen</li>
+            <li>Sicherstellen, dass Empfänger E-Mails regelmäßig überwachen</li>
+            <li>Regelmäßiges Testen des Alarmsystems mit der In-App-Testfunktion</li>
+            <li>Verstehen und Akzeptieren der Systemeinschränkungen</li>
+        </ul>
+    </div>
+
+    <div class="disclaimer">
+        <h3>Haftungsbeschränkung</h3>
+        <p>How Are You?! und seine Entwickler haften NICHT für:</p>
+        <ul>
+            <li>Verpasste Notfälle oder verzögerte Erkennung</li>
+            <li>Fehlalarme oder fehlerhafte Anomalieerkennung</li>
+            <li>Technische Ausfälle, Verbindungsprobleme oder E-Mail-Zustellprobleme</li>
+            <li>Benutzerfehler bei der Konfiguration oder Empfängereinrichtung</li>
+            <li>Batterieentladung oder Geräteleistungsprobleme</li>
+            <li>Jeglichen Schaden, der aus dem Vertrauen auf die App resultiert</li>
+        </ul>
+    </div>
+
+    <div class="disclaimer">
+        <h3>Informierte Einwilligung</h3>
+        <p>Wichtige ethische Anforderungen:</p>
+        <ul>
+            <li>Die ältere Person (Elternteil) MUSS darüber informiert werden, dass die Überwachung aktiv ist</li>
+            <li>Heimliche oder täuschende Überwachung ist nicht erlaubt</li>
+            <li>Der Elternteil behält die Autonomie und kann das Lernen jederzeit zurücksetzen</li>
+            <li>Überwachung erfordert informierte Einwilligung der überwachten Person</li>
+        </ul>
+    </div>
+
+    <div class="disclaimer">
+        <h3>Hintergrund-Standortnutzung</h3>
+        <p>Diese App verwendet Hintergrund-Standort für kritische Sicherheitsfunktionen:</p>
+        <ul>
+            <li><strong>Notfallerkennung, wenn die App geschlossen oder nicht in Gebrauch ist</strong> - Kontinuierliche Überwachung auch bei ausgeschaltetem Bildschirm</li>
+            <li><strong>Identifikation sicherer Zonen</strong> - Lernen Ihrer regelmäßigen Standorte (Zuhause, Park, Café)</li>
+            <li><strong>Standortabweichungs-Benachrichtigungen</strong> - Erkennung, wenn Sie sich außerhalb normaler Muster bewegt haben</li>
+        </ul>
+        <p><strong>Datenschutzgarantie:</strong> Ihr Standort wird NIEMALS geteilt, außer in Notfällen. Alle Daten bleiben auf Ihrem Gerät.</p>
+    </div>
+
+    <div class="disclaimer">
+        <h3>Annahme der Bedingungen</h3>
+        <p><strong>Durch die Nutzung von How Are You?! bestätigen Sie, dass Sie diese Datenschutzerklärung gelesen und verstanden haben und alle oben beschriebenen Nutzungsbedingungen, Einschränkungen und Haftungsausschlüsse akzeptieren.</strong></p>
+        <p>Die erstmalige Nutzung erfordert eine ausdrückliche Annahme dieser Bedingungen.</p>
+    </div>
+
+</body>
+</html>
