@@ -1,0 +1,133 @@
+# generated: 2025-12-18
+# project: whereareyou
+# tracking_system: file-system
+# story_location: docs/sprint-artifacts
+
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+#
+# Epic Status Transitions:
+#   - backlog → in-progress: Automatically when first story is created (via create-story)
+#   - in-progress → done: Manually when all stories reach 'done' status
+#
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - drafted: Story file created in stories folder
+#   - ready-for-dev: Draft approved and story context created
+#   - in-progress: Developer actively working on implementation
+#   - review: Ready for code review (via Dev's code-review workflow)
+#   - done: Story completed
+#
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - completed: Retrospective has been done
+#
+# WORKFLOW NOTES:
+# ===============
+# - Epic transitions to 'in-progress' automatically when first story is created
+# - Stories can be worked in parallel if team capacity allows
+# - SM typically drafts next story after previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
+
+generated: 2025-12-18
+project: whereareyou
+tracking_system: file-system
+story_location: docs/sprint-artifacts
+
+development_status:
+  # Epic 0: Project Foundation & Infrastructure Setup
+  epic-0: in-progress
+  0-1-initialize-android-project-with-multi-module-architecture: done
+  epic-0-retrospective: optional
+
+  # Epic 1: Application Foundation & Legal Compliance
+  epic-1: in-progress
+  1-1-privacy-policy-creation-and-github-pages-hosting: review
+  epic-1-retrospective: optional
+
+  # Epic 2: Setup & Onboarding Flow
+  epic-2: backlog
+  2-1-prominent-background-location-disclosure-dialog: backlog
+  2-2-google-play-billing-library-integration-for-one-time-purchase: backlog
+  epic-2-retrospective: optional
+
+  # Epic 3: Sensor Data Collection & Learning Engine
+  epic-3: backlog
+  3-1-initialize-learning-phase-and-start-data-collection: backlog
+  3-2-collect-motion-sensor-data-during-learning-phase: backlog
+  3-3-collect-gps-location-data-with-smart-triggering: backlog
+  3-4-weekly-ai-pattern-analysis-with-gemini-nano: backlog
+  3-5-generate-and-send-weekly-learning-summary-emails: backlog
+  3-6-display-learning-progress-indicator-days-x-30: backlog
+  3-7-identify-and-store-baseline-behavioral-patterns: backlog
+  3-8-reset-learning-phase-parent-device-only: backlog
+  epic-3-retrospective: optional
+
+  # Epic 4: Real-Time Monitoring & Anomaly Detection
+  epic-4: backlog
+  4-1-activate-real-time-monitoring-after-learning-complete: backlog
+  4-2-detect-unusual-stillness-duration-beyond-learned-patterns: backlog
+  4-3-detect-abnormally-long-sleep-periods: backlog
+  4-4-detect-location-deviations-from-safe-zones: backlog
+  4-5-apply-context-aware-thresholds-time-location-patterns: backlog
+  4-6-smart-gps-triggering-based-on-motion-sensor-detection: backlog
+  4-7-calculate-statistical-confidence-before-triggering-alerts: backlog
+  4-8-limit-alerts-to-maximum-1-per-day-alert-fatigue-prevention: backlog
+  4-9-offline-monitoring-with-alert-queueing: backlog
+  epic-4-retrospective: optional
+
+  # Epic 5: Emergency Alert Delivery & Communication
+  epic-5: backlog
+  5-1-send-email-alert-with-anomaly-details-and-gps-coordinates: backlog
+  5-2-multi-recipient-email-delivery: backlog
+  5-3-alert-email-retry-logic-with-exponential-backoff: backlog
+  5-4-multi-language-email-templates-for-all-alert-types: backlog
+  5-5-alert-delivery-logging-and-troubleshooting-diagnostics: backlog
+  5-6-gmail-smtp-integration-with-rate-limit-handling: backlog
+  5-7-crash-recovery-and-alert-queue-persistence: backlog
+  epic-5-retrospective: optional
+
+  # Epic 6: Pattern Adaptation & Monthly Recalibration
+  epic-6: backlog
+  6-1-schedule-monthly-behavioral-data-re-analysis: backlog
+  6-2-detect-and-analyze-pattern-changes-for-threshold-adjustment: backlog
+  6-3-generate-and-send-monthly-transparency-emails: backlog
+  6-4-update-ai-generated-rules-based-on-evolving-patterns: backlog
+  epic-6-retrospective: optional
+
+  # Epic 7: Status Dashboard & Transparency
+  epic-7: backlog
+  7-1-display-main-status-dashboard-with-visual-indicators: backlog
+  7-2-show-learning-progress-during-30-day-phase: backlog
+  7-3-alert-history-screen-with-scannable-design: backlog
+  7-4-settings-and-configuration-access-from-dashboard: backlog
+  7-5-accessibility-enhanced-ui-components-wcag-2-1-aa: backlog
+  epic-7-retrospective: optional
+
+  # Epic 8: Configuration & Maintenance
+  epic-8: backlog
+  8-1-email-recipients-management-and-testing-flow: backlog
+  8-2-reset-learning-confirmation-and-recovery-flow-dignity-preservation: backlog
+  8-3-android-permissions-management-and-diagnostic-tools: backlog
+  8-4-in-app-faq-help-content-and-troubleshooting-guide: backlog
+  epic-8-retrospective: optional
+
+  # Epic 9: Privacy & Data Management
+  epic-9: backlog
+  9-1-local-only-data-storage-and-room-database-architecture: backlog
+  9-2-secure-credential-storage-with-android-keystore: backlog
+  9-3-data-deletion-on-app-uninstall-and-reset: backlog
+  9-4-on-device-diagnostic-logging: backlog
+  9-5-privacy-safe-email-alerts-cross-cutting-concern: backlog
+  epic-9-retrospective: optional
+
+  # Epic 10: Developer Testing Infrastructure
+  epic-10: backlog
+  10-1-build-time-configuration-for-testing-mode: backlog
+  10-2-gemini-api-fallback-implementation: backlog
+  10-3-functional-parity-validation-between-gemini-nano-and-api: backlog
+  epic-10-retrospective: optional
