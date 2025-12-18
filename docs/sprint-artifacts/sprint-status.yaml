@@ -46,7 +46,7 @@ development_status:
 
   # Epic 1: Application Foundation & Legal Compliance
   epic-1: in-progress
-  1-1-privacy-policy-creation-and-github-pages-hosting: review
+  1-1-privacy-policy-creation-and-github-pages-hosting: done
   epic-1-retrospective: optional
 
   # Epic 2: Setup & Onboarding Flow

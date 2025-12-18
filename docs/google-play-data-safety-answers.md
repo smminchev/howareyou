@@ -1,7 +1,7 @@
 # Google Play Data Safety Form Answers
 
 **App:** How Are You?!
-**Privacy Policy URL:** `https://[username].github.io/howareyou/privacy-policy.html`
+**Privacy Policy URL:** https://smminchev.github.io/howareyou/privacy-policy.html
 **Last Updated:** 2025-12-18
 
 ## Data Safety Form Responses
@@ -146,11 +146,11 @@ All three language versions (English, Bulgarian, German) include:
 - **Semantic HTML5:** Screen reader compatible
 - **Load time:** < 2 seconds (static HTML, minimal CSS, no JavaScript)
 
-## URLs
+## URLs (LIVE)
 
-- **English (PRIMARY):** `https://[username].github.io/howareyou/privacy-policy.html`
-- **Bulgarian:** `https://[username].github.io/howareyou/privacy-policy-bg.html`
-- **German:** `https://[username].github.io/howareyou/privacy-policy-de.html`
+- **English (PRIMARY):** https://smminchev.github.io/howareyou/privacy-policy.html
+- **Bulgarian:** https://smminchev.github.io/howareyou/privacy-policy-bg.html
+- **German:** https://smminchev.github.io/howareyou/privacy-policy-de.html
 
 ---
 
